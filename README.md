@@ -9,6 +9,6 @@ The goal of this task was to create a scheduler that will allow the user to type
 
 # Languages Used
 * Javascript
-*HTML
-*CSS
+* HTML
+* CSS
 

@@ -2,10 +2,11 @@
 myStorage = window.localStorage;
 //variables for the current time
 var hour = moment().format('h:mm:ss a');
-var todaysDate = moment().format('dddd') + "" + moment().format ("Do MMM YYYY");
+var todaysDate = moment().format('dddd') + " " + moment().format ("Do MMM YYYY");
 var userInput;
 var inputHour;
 
+//todays date 
 $('#todaysDate').text(todaysDate);
 
 //variables for each hour
@@ -91,3 +92,17 @@ $(document).ready(function(){
     localStorage.setItem(inputHour, userInput);
     })
 });
+
+document.getElementById("9am").value = getSavedValue("9am");
+document.getElementById("10am").value = getSavedValue("10am");
+
+function saveValue(){
+    var id= id;
+    var input= userInput.value;
+    localStorage.setItem(input, id);
+}
+
+function getSavedValue(){
+    if (!localStorage.getItem(input))
+    return "";
+}

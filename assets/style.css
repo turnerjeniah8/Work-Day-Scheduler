@@ -71,31 +71,4 @@ body {
   }
   
   
-  .time{
-    background-color: rgb(241, 233, 233);
-    border-color: black;
-    text-decoration-line: underline black 20px;
-    display: flex;
-    margin-left: 5%;
-    max-width: 25%;
-  
-  }
-  
-  .inputBlock{
-    background-color: gray;
-    border-color: black;
-    display: inline-block;
-    margin-left: 5%;
-    min-width: 25%;
-    
-  }
-  
-  .blockOne{
-    background-color: rgb(241, 233, 233);
-    border-color: black;
-    text-decoration-line: underline black 20px;
-    display: inline-block;
-    margin-left: 5%;
-    max-width: 25%;
-  }
   
